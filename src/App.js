@@ -1,4 +1,6 @@
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
+
 import AboutMe from "./components/aboutMe/AboutMe";
 import ContactMe from "./components/contactMe/ContactMe";
 import Education from "./components/education/Education";
@@ -7,13 +9,27 @@ import Header from "./components/header/Header";
 import ListaProyectos from "./components/proyectos/ListaProyectos";
 
 function App() {
-  return (
-    <div>
-      <Header />
+  const Home = (
+    <>
       <ListaProyectos />
       <AboutMe />
       <ContactMe />
       <Education />
+    </>
+  );
+
+  return (
+    <div>
+      <Header />
+
+      <Routes>
+        <Route path="/" element={Home} />
+        <Route path="/proyectos" element={<ListaProyectos />} />
+        <Route path="sobre-mi" element={<AboutMe />} />
+        <Route path="contacto" element={<ContactMe />} />
+        <Route path="educacion" element={<Education />} />
+      </Routes>
+
       <Footer />
     </div>
   );

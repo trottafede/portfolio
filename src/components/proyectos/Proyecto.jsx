@@ -32,7 +32,7 @@ function Proyecto({ proyecto }) {
                 rel="noreferrer"
                 class="My-a-distance"
               >
-                <i class="fab fa-github"> Back-end</i>
+                <i class="fab fa-github"> Back</i>
               </a>
             </div>
           )}
@@ -44,7 +44,7 @@ function Proyecto({ proyecto }) {
               rel="noreferrer"
               className="My-a-distance"
             >
-              <i className="fas fa-laptop"> Deploy</i>
+              <i className="fas fa-laptop"> Visit</i>
             </a>
           </div>
         </div>

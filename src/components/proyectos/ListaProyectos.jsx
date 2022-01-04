@@ -5,7 +5,6 @@ import { v4 as uuidv4 } from "uuid";
 import Proyecto from "./Proyecto";
 
 function ListaProyectos() {
-  console.log(proyectos);
   return (
     <div id="projects">
       <div className="container">

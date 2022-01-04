@@ -1,5 +1,6 @@
 import "./Header.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -23,29 +24,30 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#home">
+                <Link className="nav-link" to="/">
                   <i className="fas fa-home"></i> Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#projects">
+                <Link className="nav-link" to="/proyectos">
                   <i className="fas fa-briefcase"></i> Works
-                </a>
+                </Link>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link" href="#AboutMe">
+                <Link className="nav-link" to="/sobre-mi">
                   <i className="fas fa-kiss-wink-heart"></i> About me
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#ContactMe">
+                <Link className="nav-link" to="/contacto">
                   <i className="fas fa-address-card"></i> Contact me
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#Education">
+                <Link className="nav-link" to="/educacion">
                   <i className="fas fa-user-graduate"></i>Education
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
