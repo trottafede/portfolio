@@ -7,6 +7,7 @@ import Education from "./components/education/Education";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import ListaProyectos from "./components/proyectos/ListaProyectos";
+import ProyectInfo from "./components/proyectos/ProyectInfo";
 
 function App() {
   const Home = (
@@ -25,6 +26,7 @@ function App() {
       <Routes>
         <Route path="/" element={Home} />
         <Route path="/proyectos" element={<ListaProyectos />} />
+        <Route path="/proyectos/:slug" element={<ProyectInfo />} />
         <Route path="sobre-mi" element={<AboutMe />} />
         <Route path="contacto" element={<ContactMe />} />
         <Route path="educacion" element={<Education />} />

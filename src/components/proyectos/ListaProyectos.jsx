@@ -2,7 +2,7 @@ import "./ListaProyectos.css";
 import proyectos from "../../proyectos.js";
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
-import Proyecto from "./Proyecto";
+import { Link } from "react-router-dom";
 
 function ListaProyectos() {
   return (
@@ -16,7 +16,13 @@ function ListaProyectos() {
           {proyectos &&
             proyectos.map((proyecto) => (
               <div key={uuidv4()} className="col">
-                <Proyecto proyecto={proyecto} />
+                <Link to={"/proyectos/" + proyecto.slug}>
+                  <img
+                    src={require("../../img/" + proyecto.image)}
+                    className="card-img-top"
+                    alt={proyecto.imageAlt}
+                  />
+                </Link>
               </div>
             ))}
         </div>

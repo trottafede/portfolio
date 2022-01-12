@@ -1,16 +1,108 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  #Education {
+    padding: 6rem;
+    font-family: "Merriweather";
+    background-color: var(--second-bg-color);
+  }
+
+  .myAlign {
+    display: flex;
+    justify-content: center;
+  }
+  .verticalAlign {
+    padding-top: 40px;
+  }
+  .verticalAlign2 {
+    padding-top: 15px;
+  }
+  #Education img {
+    width: 150px;
+    border-radius: 80%;
+  }
+  #Education .myMarginTop {
+    margin-top: 100px;
+  }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  #Education {
+    padding: 6rem;
+    font-family: "Merriweather";
+    background-color: var(--second-bg-color);
+  }
+
+  .myAlign {
+    display: flex;
+    justify-content: center;
+  }
+  .verticalAlign {
+    padding-top: 40px;
+  }
+  .verticalAlign2 {
+    padding-top: 15px;
+  }
+  #Education img {
+    width: 150px;
+    border-radius: 80%;
+  }
+  #Education .myMarginTop {
+    margin-top: 100px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  #Education {
+    padding: 6rem;
+    font-family: "Merriweather";
+    background-color: var(--second-bg-color);
+  }
+
+  .myAlign {
+    display: flex;
+    justify-content: center;
+  }
+  .verticalAlign {
+    padding-top: 40px;
+  }
+  .verticalAlign2 {
+    padding-top: 15px;
+  }
+  #Education img {
+    width: 150px;
+    border-radius: 80%;
+  }
+  #Education .myMarginTop {
+    margin-top: 100px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  #Education {
+    padding: 6rem;
+    font-family: "Merriweather";
+    background-color: var(--second-bg-color);
+  }
+
+  .myAlign {
+    display: flex;
+    justify-content: center;
+  }
+  .verticalAlign {
+    padding-top: 40px;
+  }
+  .verticalAlign2 {
+    padding-top: 15px;
+  }
+  #Education img {
+    width: 150px;
+    border-radius: 80%;
+  }
+  #Education .myMarginTop {
+    margin-top: 100px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -21,6 +113,16 @@
     background-color: var(--second-bg-color);
   }
 
+  .myAlign {
+    display: flex;
+    justify-content: center;
+  }
+  .verticalAlign {
+    padding-top: 40px;
+  }
+  .verticalAlign2 {
+    padding-top: 15px;
+  }
   #Education img {
     width: 150px;
     border-radius: 80%;
