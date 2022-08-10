@@ -20,7 +20,7 @@ function ContactMe() {
                   type="text"
                   className="form-control"
                   id="validationCustom01"
-                  value="Mark"
+                  value=""
                   required
                 />
                 <div className="valid-feedback">Looks good!</div>
@@ -34,7 +34,7 @@ function ContactMe() {
                   type="text"
                   className="form-control"
                   id="validationCustom02"
-                  value="Otto"
+                  value=""
                   required
                 />
                 <div className="valid-feedback">Looks good!</div>
@@ -48,7 +48,7 @@ function ContactMe() {
                   type="email"
                   className="form-control"
                   id="validationCustom03"
-                  placeholder="fede@gmail.com"
+                  placeholder=""
                   required
                 />
                 <div className="valid-feedback">Looks good!</div>
