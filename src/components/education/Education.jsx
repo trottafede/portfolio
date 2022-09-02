@@ -9,6 +9,7 @@ function Education() {
           <div className="col-md-12 mb-4">
             <h2 className="text-center mb-4">Education</h2>
           </div>
+
           <div className="col-sm-12 myAlign">
             <img
               src={require("../../img/ort.jpg")}
@@ -22,9 +23,10 @@ function Education() {
               </p>
             </div>
           </div>
+
           <div className="col-sm-12 myMarginTop myAlign">
             <div className="me-4">
-              <p>In 2021 I studyied in Hack Academy</p>
+              <p>In 2021 I stclearudyied in Hack Academy</p>
               <p>It was my first aproach to web development</p>
               <p>
                 I did two courses there: Front end development and the coding

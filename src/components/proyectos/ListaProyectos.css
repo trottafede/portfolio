@@ -1,4 +1,19 @@
 /* Extra small devices (portrait phones, less than 576px) */
+
+.myWave .shape-fill {
+  fill: var(--main-bg-color);
+}
+
+.myWave2 {
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  margin-bottom: -1px;
+}
+.myWave2 .shape-fill {
+  fill: var(--main-bg-color);
+}
+
 @media (max-width: 575.98px) {
   #projects {
     background-color: var(--main-bg-color);
