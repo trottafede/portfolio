@@ -102,6 +102,28 @@ let proyectos = [
   //   gitHubFront: "https://github.com/trottafede/twitter",
   //   gitHubBack: null,
   // },
+
+  {
+    title: "Clonando - Instagram",
+    slug: "clonando-replica-de-ig",
+    vercel: "https://ig-clon-trottafede.vercel.app/",
+    image: "clonandoIG.png",
+    imageAlt: "Clonando paginas - Instagram",
+    gitHubFront: "https://ig-clon.vercel.app/home",
+    gitHubBack: null,
+    description: "A clon of Instagram.",
+  },
+
+  {
+    title: "Clonando - Pagina de bootstrap",
+    slug: "clonando-pagina-de-bootstrap",
+    vercel: "https://sprint01-ejercicio01-ha-bootcamp.vercel.app/",
+    image: "clonandoBootstrapTemplate1.png",
+    imageAlt: "Clonando paginas - bootstrap 1",
+    gitHubFront: "https://github.com/trottafede/Sprint01Ejercicio01HA-Bootcamp",
+    gitHubBack: null,
+    description: "A clon of one of the Bootstrap templates",
+  },
 ];
 
 export default proyectos;
