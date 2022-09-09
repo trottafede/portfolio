@@ -16,7 +16,10 @@ function ListaProyectos() {
           <div className="row row-cols-1 row-cols-md-3 g-4 text-center">
             {proyectos &&
               proyectos.map((proyecto) => (
-                <div key={uuidv4()} className="col">
+                <div
+                  key={uuidv4()}
+                  className=" col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 "
+                >
                   <Link to={"/proyectos/" + proyecto.slug}>
                     <img
                       src={require("../../img/" + proyecto.image)}
