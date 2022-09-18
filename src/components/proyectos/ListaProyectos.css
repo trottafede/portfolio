@@ -14,6 +14,25 @@
   fill: var(--main-bg-color);
 }
 
+/* ----------------------------------------------
+      Animaciones hechas con Animista
+*/
+
+.scale-up-center {
+  animation: scale-up-center 1.3s ease-in-out both;
+}
+
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* ----------------------------------------------*/
+
 @media (max-width: 575.98px) {
   #projects {
     background-color: var(--main-bg-color);
@@ -165,7 +184,7 @@
 
   #projects img {
     border-radius: 20px;
-    transition: transform 0.4s, -webkit-transform 0.3s;
+    transition: transform 0.4s;
     height: 200px;
   }
 
@@ -218,7 +237,7 @@
 
   #projects img {
     border-radius: 20px;
-    transition: transform 0.4s, -webkit-transform 0.3s;
+    transition: transform 0.4s;
     height: 200px;
   }
 
