@@ -29,41 +29,30 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/proyectos">
+                <a className="nav-link" href="#projects">
                   <i className="fas fa-briefcase"></i> Works
-                </Link>
+                </a>
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to="/sobre-mi">
+                <a className="nav-link" href="#AboutMe">
                   <i className="fas fa-kiss-wink-heart"></i> About me
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contacto">
+                <a className="nav-link" href="#ContactMe">
                   <i className="fas fa-address-card"></i> Contact me
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/educacion">
+                <a className="nav-link" href="#Education">
                   <i className="fas fa-user-graduate"></i>Education
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-
-      <div className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <h1>
-              Welcome to
-              <i> my page </i>
-            </h1>
-          </div>
-        </div>
-      </div>
     </header>
   );
 }

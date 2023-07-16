@@ -1,0 +1,13 @@
+.myWave .shape-fill {
+    fill: var(--main-bg-color);
+  }
+  
+  .myWave2 {
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-bottom: -1px;
+  }
+  .myWave2 .shape-fill {
+    fill: var(--main-bg-color);
+  }

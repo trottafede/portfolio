@@ -1,23 +1,12 @@
+import Wave1 from "../Wave/Wave1";
+import Wave2 from "../Wave/Wave2";
 import "./ContactMe.css";
 import React from "react";
 
 function ContactMe() {
   return (
-    <div>
-      <div class="myWave2">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-            class="shape-fill"
-          ></path>
-        </svg>
-      </div>
-
+    <>
+      <Wave2 />
       <div id="ContactMe">
         <div className="container">
           <div className="row">
@@ -36,7 +25,6 @@ function ContactMe() {
                     className="form-control"
                     id="validationCustom01"
                     placeholder="First name"
-                    required
                   />
                   <div className="valid-feedback">Looks good!</div>
                 </div>
@@ -50,7 +38,6 @@ function ContactMe() {
                     className="form-control"
                     id="validationCustom02"
                     placeholder="Last name"
-                    required
                   />
                   <div className="valid-feedback">Looks good!</div>
                 </div>
@@ -64,7 +51,6 @@ function ContactMe() {
                     className="form-control"
                     id="validationCustom03"
                     placeholder="youremail@gmail.com"
-                    required
                   />
                   <div className="valid-feedback">Looks good!</div>
                 </div>
@@ -79,7 +65,6 @@ function ContactMe() {
                     rows="5"
                     id="validationCustom05"
                     minlength="20"
-                    required
                   ></textarea>
 
                   <div className="invalid-feedback">
@@ -88,47 +73,63 @@ function ContactMe() {
                 </div>
 
                 <div className="col-12 mt-2">
-                  <div className="form-check">
-                    <input
-                      className="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id="invalidCheck"
-                      required
-                    />
-                    <label className="form-check-label" for="invalidCheck">
-                      Agree receive message
-                    </label>
-                    <div className="invalid-feedback">
-                      You must agree before submitting.
+                  <button
+                    type="button"
+                    className="btn btn-outline-light"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Send
+                  </button>
+
+                  <div
+                    class="modal fade"
+                    id="exampleModal"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <div className="imgContainer">
+                            <img
+                              src="https://cdn.memegenerator.es/imagenes/memes/full/28/60/28604983.jpg"
+                              alt="Te la creiste we"
+                            />
+                          </div>
+                          <h1 style={{ color: "red", textAlign: "center" }}>
+                            Currently disabled!
+                          </h1>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-
-                <div className="col-12 mt-2">
-                  <button className="btn btn-outline-light" type="submit">
-                    Send message
-                  </button>
                 </div>
               </form>
             </div>
           </div>
         </div>
       </div>
-      <div class="myWave">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-            class="shape-fill"
-          ></path>
-        </svg>
-      </div>
-    </div>
+      <Wave1 />
+    </>
   );
 }
 

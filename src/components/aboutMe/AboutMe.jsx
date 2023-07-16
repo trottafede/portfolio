@@ -15,7 +15,7 @@ function AboutMe() {
             </div>
 
             <p>
-              My name is Federico Trotta, I am 26 years old. On June of 2021, I
+              My name is Federico Trotta, I am 27 years old. On June of 2021, I
               finished a Coding Bootcamp at Hack Academy. Place where I learned
               about front-end web development and back-end web development
               because it was an intensive 3-month course with more than 600hs of

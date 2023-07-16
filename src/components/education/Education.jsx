@@ -15,7 +15,7 @@ function Education() {
               src={require("../../img/ort.jpg")}
               alt="Logo de Ort University"
             />
-            <div className="ms-4 verticalAlign">
+            <div className="ms-4 ">
               <p>In 2021 I started Computer Engineer in ORT University</p>
               <p>
                 I am still studying here and I would like to finish my career
@@ -26,7 +26,7 @@ function Education() {
 
           <div className="col-sm-12 myMarginTop myAlign">
             <div className="me-4">
-              <p>In 2021 I stclearudyied in Hack Academy</p>
+              <p>In 2021 I studyied in Hack Academy</p>
               <p>It was my first aproach to web development</p>
               <p>
                 I did two courses there: Front end development and the coding
@@ -47,16 +47,23 @@ function Education() {
             <img
               src={require("../../img/PlanCeibal.png")}
               alt="Logo de Hack Academy"
+              className="me-4"
             />
 
-            <div className="ms-4 verticalAlign2">
-              <p>
-                In 2021 also studyied in Plan Ceibal an introductiong to
-                programming
-              </p>
-              <p>It was a brief introductiong to OOP, Ruby and Javascript</p>
-              <p>I want to keep studying testing in a near future here.</p>
+            <div className="verticalAlign2">
+              <p>2023 - Currently coursing Plan Ceibal Phase 2: Web Development</p>
             </div>
+          </div>
+
+          <div className="col-sm-12 myMarginTop myAlign">
+            <div className="me-4">
+              <p>2021 - B2 First</p>
+              <p>2023 - Preparing C1 Advanced Exam</p>
+            </div>
+            <img
+              src={require("../../img/Dickens.png")}
+              alt="Logo de Hack Academy"
+            />
           </div>
         </div>
       </div>
