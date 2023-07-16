@@ -47,30 +47,6 @@ let proyectos = [
     description: "This is a simple to do app made with react and react-redux.",
   },
 
-  // {
-  //   vercel: "https://el-galpon-front-end.vercel.app/",
-  //   image: "AlmacénTami.jpg",
-  //   imageAlt: "HackComerce",
-  //   gitHubFront: "https://github.com/trottafede/ElGalponFrontEnd",
-  //   gitHubBack: null,
-  // },
-
-  // {
-  //   vercel: "https://e-commerce-front-three.vercel.app/",
-  //   image: "HackComerce.png",
-  //   imageAlt: "HackComerce",
-  //   gitHubFront: "https://github.com/trottafede/e-commerce-front",
-  //   gitHubBack: "https://github.com/trottafede/e-commerce-back",
-  // },
-
-  // {
-  //   vercel: "https://twitter-react-seven.vercel.app/",
-  //   image: "Twitter.png",
-  //   imageAlt: "twitter-img",
-  //   gitHubFront: "https://github.com/trottafede/twitter-react",
-  //   gitHubBack: "https://github.com/trottafede/Backend_Twitter_React",
-  // },
-
   {
     title: "HackFlix",
     slug: "hackFlix-react",
@@ -94,15 +70,6 @@ let proyectos = [
     description:
       "This was the front-end project that I did in Hack Academy at the end of this course.",
   },
-
-  // {
-  //   vercel: "https://twitter-tan.vercel.app/signIn",
-  //   image: "TwitterEJS.png",
-  //   imageAlt: "twitter",
-  //   gitHubFront: "https://github.com/trottafede/twitter",
-  //   gitHubBack: null,
-  // },
-
   {
     title: "Clonando - Instagram",
     slug: "clonando-replica-de-ig",

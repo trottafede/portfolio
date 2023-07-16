@@ -51,7 +51,7 @@ function Education() {
             />
 
             <div className="verticalAlign2">
-              <p>2023 - Currently coursing Plan Ceibal Phase 2: Web Development</p>
+              <p>2023 - Currently studying Plan Ceibal Phase 2: Web Development</p>
             </div>
           </div>
 
